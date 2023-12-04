@@ -3,7 +3,7 @@ import Email from './Email.jsx';
 import Phone from './Phone.jsx';
 import Plan from './Plan.jsx';
 import ModeButton from './ModeButton.jsx';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import './Component.css';
 

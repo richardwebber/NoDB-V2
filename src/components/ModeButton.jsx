@@ -1,7 +1,9 @@
 import React from 'react'
 
 const ModeButton = (props) => {
-    const {isEditing, changeEditMode, changeNormalMode, deleteRow} = props
+    
+  const {isEditing, changeEditMode, changeNormalMode, deleteRow} = props
+
   return isEditing ? (
     <td>
         <button onClick={changeNormalMode} className='modeButtons saveButton'> Save </button>

@@ -1,11 +1,6 @@
 import axios from 'axios'
 
 import AddButton from './AddButton.jsx'
-// import Name from './Name.jsx'
-// import Phone from './Phone.jsx'
-// import Email from './Email.jsx'
-// import Plan from './Plan.jsx'
-// import ModeButton from './ModeButton.jsx'
 import TableHeader from './TableHeader.jsx'
 import TableRow from './TableRow.jsx'
 import './Component.css'
